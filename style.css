@@ -1,0 +1,122 @@
+:root {
+    --bg-main: #0f172a;
+    --bg-header: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --accent: #38bdf8;
+    --border: #334155;
+}
+
+body.dhd-dark-mode {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.main-header {
+    background: var(--bg-header);
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.avatar-mini {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.layout-container {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 240px;
+    padding: 2rem;
+    border-right: 1px solid var(--border);
+    height: calc(100vh - 70px);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 0.8rem 0;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.sidebar li.active {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+    padding: 2rem 4rem;
+}
+
+.blog-post {
+    max-width: 800px;
+}
+
+.author-info {
+    display: flex;
+    gap: 15px;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #1e293b;
+    border-radius: 8px;
+}
+
+.author-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.author-text strong { display: block; }
+.author-text span { font-size: 0.85rem; color: var(--text-secondary); display: block; }
+.author-text time { font-size: 0.8rem; color: var(--accent); }
+
+.post-body p {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+blockquote {
+    border-left: 4px solid var(--accent);
+    margin: 2rem 0;
+    padding-left: 1.5rem;
+    font-style: italic;
+    color: #cbd5e1;
+}
+
+.tag {
+    background: #334155;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-right: 8px;
+}
