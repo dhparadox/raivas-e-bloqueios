@@ -7,5 +7,5 @@ harmonia alugada cai
 -
 ,,
 
-Tive que usar de técnicas milenares do poetismo, para colocar minha simples e pessoal opinião num site aí, ué, não posso pensar mais não?
-Tire sua própria conclusão: 
+Tive que usar de técnicas milenares do poetismo, sorrateirismo, para simplismente colocar num site aí a minha opinião, ué, não posso pensar mais não?
+Tire sua própria conclusão: https://dhparadox.github.io/biblioteca/
